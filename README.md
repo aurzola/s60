@@ -4,7 +4,9 @@ Nokia e5/e63 Battery Hack
 
 * Code for the display: mypys/ledv6.py
 * Code for the server: pc/charserver
+* Code to link phone's imei to its position on display: mypys/setImeiPos.py
 
+Set up phone ordering running setImeiPos.py on each phone.
 
 If Python complains about not having enough memory loading an image edit it on the phone, save, and use the updated file.
 To make the phone less picky upon connections, Put sim cards to get it out of disconnected mode,
