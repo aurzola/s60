@@ -11,7 +11,7 @@ To make the phone less picky upon connections, Put sim cards to get it out of di
 define one wlan default access point for internet.
 
 # s60
-How to Build Compatible Python 2.5 2.6
+## How to Build Compatible Python 2.5 2.6
 
  wget https://www.python.org/ftp/python/2.5.4/Python-2.5.4.tgz
 sudo apt-get install zlibc zlib1g zlib1g-dev
