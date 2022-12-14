@@ -1,4 +1,4 @@
-# Display on Nokias
+# Nokia Display Array
 
 <img src="images/nokiadisplay.jpg">
 
