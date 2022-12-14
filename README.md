@@ -41,7 +41,7 @@ Alternatively:
 
 Source for troubleshooting Building python ver http://olegp.name/howto/build-python-25-with-modules/
 
-# Build package
+## Build package
 
 build sisx to parent dir:
 
