@@ -6,7 +6,9 @@ Nokia e5/e63 Battery Hack
  Code for the server: pc/charserver
 
 
-If Python complains about not having enough memory loading an img edit it in the phone itself save, and use that file.
+If Python complains about not having enough memory loading an image edit it on the phone save, and use that file.
+To make the phone less picky upon connections, Put sim cards to get it out of disconnected mode,
+define one wlan default access point for internet.
 
 # s60
 How to Build Compatible Python 2.5 2.6
