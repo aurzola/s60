@@ -41,7 +41,7 @@ def stop():
 def callback(event):
     global iCharCode
     if event['type'] == appuifw.EEventKey:
-	iCharCode=event['scancode']
+	    iCharCode=event['scancode']
 
 
 def drawLetter(iSpriteRow, iSpriteCol,  iPos, letter):  
