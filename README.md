@@ -2,8 +2,8 @@
 Nokia e5/e63 Battery Hack
 <img src="images/batteryHack.jpg">
 
- Code for the display: mypys/ledv6.py
- Code for the server: pc/charserver
+* Code for the display: mypys/ledv6.py
+* Code for the server: pc/charserver
 
 
 If Python complains about not having enough memory loading an image edit it on the phone save, and use that file.
