@@ -5,6 +5,9 @@ Nokia e5/e63 Battery Hack
  Code for the display: mypys/ledv6.py
  Code for the server: pc/charserver
 
+
+If Python complains about not having enough memory loading an img edit it in the phone itself save, and use that file.
+
 # s60
 How to Build Compatible Python 2.5 2.6
 
