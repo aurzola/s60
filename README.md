@@ -1,5 +1,8 @@
-# Tree
-Nokia e5/e63 Battery Hack
+# Display on Nokias
+
+<img src="images/nokiadisplay.jpg">
+
+## Nokia e5/e63 Battery Hack
 <img src="images/batteryHack.jpg">
 
 * Code for the display: mypys/ledv6.py
