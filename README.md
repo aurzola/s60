@@ -43,7 +43,7 @@ Source for troubleshooting Building python ver http://olegp.name/howto/build-pyt
 
 # Build package
 
-build sisx o parent dir:
+build sisx to parent dir:
 
 python2.5 ensymble.py py2sis mypys/ledv3.py ..
 
