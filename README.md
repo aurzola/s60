@@ -11,10 +11,12 @@ To make the phone less picky upon connections, Put sim cards to get it out of di
 define one wlan default access point for internet.
 
 # s60
-## How to Build Compatible Python 2.5 2.6
+## How to Build Compatible Python 2.5/2.6
 
- wget https://www.python.org/ftp/python/2.5.4/Python-2.5.4.tgz
+wget https://www.python.org/ftp/python/2.5.4/Python-2.5.4.tgz
+
 sudo apt-get install zlibc zlib1g zlib1g-dev
+
 install also libsasl2-dev and libssl-dev
 
 sed -i "s/^#zlib/zlib/g" Modules/Setup
@@ -32,12 +34,16 @@ Then
 make
 make install
  
-Alternatively ((alternatively cd /lib and sudo ln -s ./x86_64-linux-gnu/libz.so.1 libz.so  && sudo ln -s ./x86_64-linux-gnu/libssl.so.1.1 libssl.so )
-dor reconfigure & make
+Alternatively:
+
+ ((alternatively cd /lib and sudo ln -s ./x86_64-linux-gnu/libz.so.1 libz.so  && sudo ln -s ./x86_64-linux-gnu/libssl.so.1.1 libssl.so )
+ do reconfigure & make
 
 Source for troubleshooting Building python ver http://olegp.name/howto/build-python-25-with-modules/
 
-Package to parent dir with 
+#Package sisx
+
+build into parent dir with 
 
 python2.5 ensymble.py py2sis mypys/ledv3.py ..
 
