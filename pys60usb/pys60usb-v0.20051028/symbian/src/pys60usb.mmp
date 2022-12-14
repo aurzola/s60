@@ -1,0 +1,24 @@
+TARGETTYPE	dll
+TARGET		pys60usb.pyd
+TARGETPATH	\system\libs
+
+NOSTRICTDEF
+EXPORTUNFROZEN
+
+SYSTEMINCLUDE 	\epoc32\include
+SYSTEMINCLUDE 	\epoc32\include\libc
+
+USERINCLUDE   	\epoc32\..\python-port-s60\symbian_python\Symbian
+USERINCLUDE   	\epoc32\..\python-port-s60\symbian_python\Include
+USERINCLUDE   	\epoc32\..\python-port-s60\symbian_python\Python
+
+LIBRARY 	python222.lib
+LIBRARY 	euser.lib
+LIBRARY		c32.lib
+LIBRARY	    	flogger.lib
+
+//MACRO __DO_LOGGING__
+
+SOURCE		pys60usb.cpp
+SOURCE		ConnManager.cpp
+SOURCE		TimeoutTimer.cpp

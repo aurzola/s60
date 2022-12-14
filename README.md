@@ -1,4 +1,10 @@
-# s60
+# Tree
+Nokia e5/e63 Battery Hack
+<img src="images/batteryHack.jpg">
+
+ Code for the display: mypys/ledv6.py
+ Code for the server: pc/charserver
+
 # s60
 How to Build Compatible Python 2.5 2.6
 
@@ -26,7 +32,8 @@ dor reconfigure & make
 
 Source for troubleshooting Building python ver http://olegp.name/howto/build-python-25-with-modules/
 
-Package with:
+Package to parent dir with 
 
-python2.5 ensymble.py py2sis ledv4.py
+python2.5 ensymble.py py2sis mypys/ledv3.py ..
+
 

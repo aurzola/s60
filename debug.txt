@@ -1,0 +1,156 @@
+Excluding: mimetools module_type:base
+Excluding: traceback module_type:base
+Excluding: copy_reg module_type:base
+Excluding: sre_compile module_type:base
+Excluding: encodings module_type:base
+Excluding: locale module_type:base
+Excluding: _sre module_type:base
+Excluding: random module_type:base
+Excluding: popen2 module_type:base
+Excluding: stat module_type:base
+Excluding: __builtin__ module_type:base
+Excluding: dummy_thread module_type:base
+Excluding: urllib module_type:base
+Excluding: __main__ module_type:base
+Excluding: email.mime module_type:base
+Excluding: email.message module_type:base
+Excluding: copy module_type:base
+Excluding: posixpath module_type:base
+Excluding: tempfile module_type:base
+Excluding: errno module_type:base
+Excluding: base64 module_type:base
+Excluding: gettext module_type:base
+Excluding: sre_constants module_type:base
+Excluding: re module_type:base
+Excluding: email._parseaddr module_type:base
+Excluding: ntpath module_type:base
+Excluding: UserDict module_type:base
+Excluding: getopt module_type:base
+Excluding: email.charset module_type:base
+Excluding: email.errors module_type:base
+Excluding: email module_type:base
+Excluding: textwrap module_type:base
+Excluding: ftplib module_type:base
+Excluding: mimetypes module_type:base
+Excluding: string module_type:base
+Excluding: rfc822 module_type:base
+Excluding: optparse module_type:base
+Excluding: _codecs module_type:base
+Excluding: tokenize module_type:base
+Excluding: repr module_type:base
+Excluding: email.utils module_type:base
+Excluding: email.feedparser module_type:base
+Excluding: sys module_type:base
+Excluding: pwd module_type:excluded
+Excluding: nturl2path module_type:base
+Excluding: codecs module_type:base
+Excluding: email.parser module_type:base
+Excluding: types module_type:base
+Excluding: struct module_type:base
+Excluding: _types module_type:base
+Excluding: httplib module_type:base
+Excluding: socket module_type:base
+Excluding: thread module_type:base
+Excluding: email.base64mime module_type:base
+Excluding: uu module_type:base
+Excluding: StringIO module_type:base
+Excluding: email.quoprimime module_type:base
+Excluding: urlparse module_type:base
+Excluding: linecache module_type:base
+Excluding: token module_type:base
+Excluding: email.encoders module_type:base
+Excluding: posix module_type:base
+Excluding: encodings.aliases module_type:base
+Excluding: warnings module_type:base
+Excluding: sre_parse module_type:base
+Excluding: quopri module_type:base
+Excluding: os module_type:base
+In resolve_unresolved_dep now:['cStringIO', '_random', '_emx_link', 'ce', 'key_codes', 'getpass', 'Carbon.Folders', 'SOCKS', 'operator', 'email.Generator', 'appuifw', 'e32', 'riscos', '_socket', 'binascii', 'email.Utils', 'nt', 'ic', 'fcntl', 'gopherlib', '_ssl', 'macpath', 'riscospath', 'rourl2path', 'os2', 'macurl2path', 'mac', 'graphics', 'riscosenviron', 'sysinfo', 'os.path', '_struct', '_locale', 'email.Iterators', 'strop', 'array', 'Carbon.Folder', 'os2emxpath', 'itertools', 'math', 'org.python.core', 'time', '_winreg']
+mod: _winreg : type: excluded
+excluding: _winreg module type: excluded
+mod: time : type: base
+excluding: time module type: base
+mod: org.python.core : type: excluded
+excluding: org.python.core module type: excluded
+mod: math : type: base
+excluding: math module type: base
+mod: itertools : type: base
+excluding: itertools module type: base
+mod: os2emxpath : type: excluded
+excluding: os2emxpath module type: excluded
+mod: Carbon.Folder : type: excluded
+excluding: Carbon.Folder module type: excluded
+mod: array : type: base
+excluding: array module type: base
+mod: strop : type: base
+excluding: strop module type: base
+mod: email.Iterators : type: base
+excluding: email.Iterators module type: base
+mod: _locale : type: base
+excluding: _locale module type: base
+mod: _struct : type: base
+excluding: _struct module type: base
+mod: os.path : type: base
+excluding: os.path module type: base
+mod: sysinfo : type: dev
+excluding: sysinfo module type: base
+mod: riscosenviron : type: excluded
+excluding: riscosenviron module type: excluded
+mod: graphics : type: dev
+excluding: graphics module type: base
+mod: mac : type: excluded
+excluding: mac module type: excluded
+mod: macurl2path : type: excluded
+excluding: macurl2path module type: excluded
+mod: os2 : type: excluded
+excluding: os2 module type: excluded
+mod: rourl2path : type: excluded
+excluding: rourl2path module type: excluded
+mod: riscospath : type: excluded
+excluding: riscospath module type: excluded
+mod: macpath : type: excluded
+excluding: macpath module type: excluded
+mod: _ssl : type: base
+excluding: _ssl module type: base
+mod: gopherlib : type: excluded
+excluding: gopherlib module type: excluded
+mod: fcntl : type: base
+excluding: fcntl module type: base
+mod: ic : type: excluded
+excluding: ic module type: excluded
+mod: nt : type: excluded
+excluding: nt module type: excluded
+mod: email.Utils : type: base
+excluding: email.Utils module type: base
+mod: binascii : type: base
+excluding: binascii module type: base
+mod: _socket : type: base
+excluding: _socket module type: base
+mod: riscos : type: excluded
+excluding: riscos module type: excluded
+mod: e32 : type: dev
+excluding: e32 module type: base
+mod: appuifw : type: dev
+excluding: appuifw module type: base
+mod: email.Generator : type: base
+excluding: email.Generator module type: base
+mod: operator : type: base
+excluding: operator module type: base
+mod: SOCKS : type: excluded
+excluding: SOCKS module type: excluded
+mod: Carbon.Folders : type: excluded
+excluding: Carbon.Folders module type: excluded
+mod: getpass : type: excluded
+excluding: getpass module type: excluded
+mod: key_codes : type: unknown
+mod: ce : type: excluded
+excluding: ce module type: excluded
+mod: _emx_link : type: excluded
+excluding: _emx_link module type: excluded
+mod: _random : type: base
+excluding: _random module type: base
+mod: cStringIO : type: base
+excluding: cStringIO module type: base
+Final dependency list: {'repo': [], 'dev': []}
+Extra modules list:{'repo': [], 'dev': []}
+Custom lookup paths are :[]

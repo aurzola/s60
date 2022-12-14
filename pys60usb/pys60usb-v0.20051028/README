@@ -1,0 +1,38 @@
+pys60usb - usb connectivity for s60/python
+
+WARNING: THIS IS ALPHA RELEASE - JUST TO SHOW IT'S POSSIBLE
+
+With this you can communicate between phone and pc via the usb cable (Nokia DKU-2).
+
+Currently, only real application is USB console (similar to BT console).
+
+Required software:
+- Nokia PC Suite (tested with 6.6.18)
+- This can be made to work with Linux, I just don't know the details. 
+  Please email me or contact via IRC if you know.
+  
+PC setup:
+- enable USB connectivity on the PC Suite
+- when you plugin the phone cable, Control Panel->Phone and Modem Options
+  'Modems' tab should have "Nokia XXXX USB modem", connected to some 
+  virtual serial port. You can test the connection by starting hyperterminal,
+  and typing "AT<enter>". The phone's Fax/Modem process should reply with "OK".
+- Leave HyperTerminal open
+
+Phone setup:
+- Copy the file symbian\bin\armi\urel to phone system\libs
+- Kill FaxModem process (this *might* not be required in all phones). Note, that
+  in some phones you might need to do this many times.
+- copy python\phone\simpleusbconsole.py to phone and run it
+- now you should see familiar text inside the HyperTerminal
+
+Note: When you close down the Python on the phone, it will show Kern-Exec 3. Worry not,
+will be fixed in next version.
+
+author: ssalmine@users.sf.net / ranq @ freenode #pys60
+
+CHANGELOG:
+
+v0.20051028:
+ .: initial version - alpha quality
+ 
